@@ -15,7 +15,8 @@ public class PrimeNumbers {
 
 		int a = sc.nextInt();
 		
-		if(a/1==a && a%2 !=0)
+		if(a/1==a && a%2 !=0)             //---incorrect logic
+			
 		{
 			System.out.println(a+" is prime number");
 		}
